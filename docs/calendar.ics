@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261110T083000
 DTEND;TZID=America/New_York:20261110T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-10-2026-11-10@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -23,7 +23,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-10-2026-12-10@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-46-2026-11-13@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -55,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261215T083000
 DTEND;TZID=America/New_York:20261215T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-46-2026-12-15@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-50-2026-11-06@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261204T083000
 DTEND;TZID=America/New_York:20261204T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-50-2026-12-04@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-53-2026-10-29@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -119,7 +119,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-53-2026-11-25@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -135,7 +135,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-53-2026-12-23@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -151,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-54-2026-10-29@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
@@ -167,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-54-2026-11-25@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
@@ -183,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T215111Z
+DTSTAMP:20261101T215154Z
 UID:fred-54-2026-12-23@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
