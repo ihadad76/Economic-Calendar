@@ -9,6 +9,7 @@ https://www.federalreserve.gov/newsevents/pressreleases/monetary20250905a.htm
 from datetime import date, datetime, time, timedelta
 from icalendar import Event, Alarm
 from zoneinfo import ZoneInfo
+from publisher_schedules import official_dates
 
 NY = ZoneInfo("America/New_York")
 
@@ -52,13 +53,15 @@ def append_event(calendar, now, day, clock, label, uid, source):
 def add_official_schedules(calendar, now):
     count = 0
     ism_source = "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
-    for label, days in ISM_DAYS_2026.items():
-        for month, day in enumerate(days, 1):
-            count += append_event(calendar, now, date(2026, month, day), time(10, 0),
-                label, "ism-" + label.lower().replace(" ", "-") + f"-2026-{month:02d}-{day:02d}", ism_source)
+    fallback_ism = {label: [date(2026, month, day) for month, day in enumerate(days, 1)]
+                    for label, days in ISM_DAYS_2026.items()}
+    fomc_dates, ism_dates = official_dates([date(*d) for d in FOMC], fallback_ism)
+    for label, dates in ism_dates.items():
+        for d in dates:
+            count += append_event(calendar, now, d, time(10, 0),
+                label, "ism-" + label.lower().replace(" ", "-") + f"-{d}", ism_source)
     fomc_source = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-    for year, month, day in FOMC:
-        d = date(year, month, day)
+    for d in fomc_dates:
         count += append_event(calendar, now, d, time(14, 0), "FOMC Rate Decision",
             f"fomc-decision-{d}", fomc_source)
         count += append_event(calendar, now, d, time(14, 30), "FOMC Chair Press Conference",
