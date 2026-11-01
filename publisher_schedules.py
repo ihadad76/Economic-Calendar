@@ -55,22 +55,32 @@ def parse_fomc(html):
     return sorted(result)
 
 def parse_ism(html):
+    """Parse the ISM publication table, ignoring forecasts and footnotes.
+
+    ISM renders the table with ordinary or header cells depending on page
+    template. Read its row values rather than relying on a specific <th>.
+    """
     soup = BeautifulSoup(html, "html.parser")
     result = {"ISM Manufacturing PMI": [], "ISM Services PMI": []}
+    month_names = "|".join(MONTHS)
     for table in soup.find_all("table"):
-        headers = " ".join(th.get_text(" ", strip=True) for th in table.find_all("th")).lower()
-        if not ("manufacturing" in headers and "services" in headers):
+        rows = table.find_all("tr")
+        if not rows:
             continue
-        for row in table.find_all("tr"):
-            cells = [td.get_text(" ", strip=True) for td in row.find_all(["td", "th"], recursive=False)]
+        heading = " ".join(rows[0].stripped_strings).lower()
+        if "manufacturing" not in heading or "services" not in heading:
+            continue
+        for row in rows[1:]:
+            cells = [cell.get_text(" ", strip=True)
+                     for cell in row.find_all(["td", "th"], recursive=False)]
             if len(cells) < 3:
                 continue
-            match = re.search(r"\b(" + "|".join(MONTHS) + r")\s+(20\d{2})\b", cells[0], re.I)
+            match = re.fullmatch(r"\s*(" + month_names + r")\s+(20\d{2})\s*", cells[0], re.I)
             if not match:
                 continue
             month, year = MONTHS[match.group(1).lower()], int(match.group(2))
             for label, raw in zip(result, cells[1:3]):
-                day = re.match(r"^\s*(\d{1,2})\b", raw)
+                day = re.match(r"^\s*(\d{1,2})(?!\d)", raw)
                 if day:
                     try:
                         result[label].append(date(year, month, int(day.group(1))))
