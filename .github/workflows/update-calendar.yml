@@ -26,6 +26,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Test Fed chair speech recognition
+        run: python test_fed_speeches.py
       - name: Build calendar from FRED
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
