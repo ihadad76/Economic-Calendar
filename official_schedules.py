@@ -10,6 +10,7 @@ from datetime import date, datetime, time, timedelta
 from icalendar import Event, Alarm
 from zoneinfo import ZoneInfo
 from publisher_schedules import official_dates
+from event_descriptions import event_description
 
 NY = ZoneInfo("America/New_York")
 
@@ -40,7 +41,8 @@ def append_event(calendar, now, day, clock, label, uid, source):
     event.add("dtstart", start)
     event.add("dtend", start + timedelta(minutes=15))
     event.add("dtstamp", now)
-    event.add("description", "Official published schedule. Check publisher for changes. " + source)
+    event.add("description", event_description(label, source,
+        "המועד מבוסס על לוח פרסומים רשמי או על רשימת תאריכים מאומתת ששמורה במערכת. יש לאמת שינויים חריגים מול הגוף המפרסם."))
     event.add("url", source)
     alarm = Alarm()
     alarm.add("action", "DISPLAY")
