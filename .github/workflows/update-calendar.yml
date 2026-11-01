@@ -11,10 +11,15 @@ on:
       - .github/workflows/update-calendar.yml
 permissions:
   contents: write
+  pages: write
+  id-token: write
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,7 +30,7 @@ jobs:
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python calendar_builder.py
-      - name: Publish updated feed
+      - name: Commit updated feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -34,3 +39,12 @@ jobs:
             git commit -m "Refresh economic calendar"
             git push
           fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload calendar website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy calendar website
+        id: deployment
+        uses: actions/deploy-pages@v4
