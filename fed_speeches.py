@@ -23,6 +23,7 @@ def parse_month(html, year, month, now, url):
     soup = BeautifulSoup(html, "html.parser")
     # Some months have no Speeches section at all. Search individual rows;
     # the strict speech/discussion + chair filter prevents unrelated releases.
+    result = []
     rows = soup.find_all("tr")
     for row in rows:
         text = " ".join(row.stripped_strings)
