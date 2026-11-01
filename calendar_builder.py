@@ -13,6 +13,7 @@ import requests
 from icalendar import Calendar, Event, Alarm
 from official_schedules import add_official_schedules
 from fed_speeches import add_chair_speeches
+from event_descriptions import event_description
 
 API = "https://api.stlouisfed.org/fred"
 NY = ZoneInfo("America/New_York")
@@ -82,10 +83,9 @@ def main():
             event.add("dtstart", start)
             event.add("dtend", start + timedelta(minutes=15))
             event.add("dtstamp", now)
-            event.add("description",
-                f"Scheduled date via FRED, release: {name}. "
-                "Time is the standard agency release time, not supplied by FRED. "
-                "Verify against the issuing agency for exceptional schedule changes.")
+            event.add("description", event_description(name,
+                f"https://fred.stlouisfed.org/releases?rid={release_id}",
+                "התאריך מבוסס על FRED; שעת הפרסום היא השעה המקובלת ולא מתקבלת מ־FRED. יש לאמת שינויים חריגים מול הגוף המפרסם."))
             event.add("url", f"https://fred.stlouisfed.org/releases?rid={release_id}")
             alarm = Alarm()
             alarm.add("action", "DISPLAY")
