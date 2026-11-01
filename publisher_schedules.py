@@ -26,7 +26,7 @@ def parse_fomc(html):
     headings = soup.find_all(re.compile("^h[1-6]$"))
     for heading in headings:
         label = heading.get_text(" ", strip=True)
-        m = re.search(r"\\b(20\\d{2})\\s+FOMC Meetings\\b", label, re.I)
+        m = re.search(r"\b(20\d{2})\s+FOMC Meetings\b", label, re.I)
         if not m:
             continue
         year = int(m.group(1))
@@ -44,7 +44,7 @@ def parse_fomc(html):
             if not month:
                 continue
             for next_value in nodes[i+1:i+5]:
-                match = re.fullmatch(r"(\\d{1,2})\\s*[-–—]\\s*(\\d{1,2})\\s*\\*?", next_value)
+                match = re.fullmatch(r"(\d{1,2})\s*[-–—]\s*(\d{1,2})\s*\*?", next_value)
                 if match:
                     day = int(match.group(2))
                     try:
@@ -65,12 +65,12 @@ def parse_ism(html):
             cells = [td.get_text(" ", strip=True) for td in row.find_all(["td", "th"], recursive=False)]
             if len(cells) < 3:
                 continue
-            match = re.search(r"\\b(" + "|".join(MONTHS) + r")\\s+(20\\d{2})\\b", cells[0], re.I)
+            match = re.search(r"\b(" + "|".join(MONTHS) + r")\s+(20\d{2})\b", cells[0], re.I)
             if not match:
                 continue
             month, year = MONTHS[match.group(1).lower()], int(match.group(2))
             for label, raw in zip(result, cells[1:3]):
-                day = re.match(r"^\\s*(\\d{1,2})\\b", raw)
+                day = re.match(r"^\s*(\d{1,2})\b", raw)
                 if day:
                     try:
                         result[label].append(date(year, month, int(day.group(1))))
