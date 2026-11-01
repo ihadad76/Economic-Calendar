@@ -21,7 +21,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python calendar_builder.py
+      - name: Build calendar from FRED
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python calendar_builder.py
       - name: Publish updated feed
         run: |
           git config user.name "github-actions[bot]"
