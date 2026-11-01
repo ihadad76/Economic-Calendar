@@ -21,20 +21,10 @@ EXCLUDE = re.compile(r"\bvice\s+chair\b", re.I)
 
 def parse_month(html, year, month, now, url):
     soup = BeautifulSoup(html, "html.parser")
-    # The official monthly calendar is grouped into sections with a Speeches
-    # heading; only inspect individual table rows in that section.
-    result = []
-    heading = soup.find(lambda tag: tag.name in ("h2", "h3", "h4", "h5") and tag.get_text(" ", strip=True).lower() == "speeches")
-    if heading is None:
-        logging.warning("No Speeches section found: %s", url)
-        return result
-    section = []
-    for el in heading.next_elements:
-        if getattr(el, "name", None) in ("h2", "h3", "h4", "h5") and el is not heading:
-            break
-        if getattr(el, "name", None) == "tr":
-            section.append(el)
-    for row in section:
+    # Some months have no Speeches section at all. Search individual rows;
+    # the strict speech/discussion + chair filter prevents unrelated releases.
+    rows = soup.find_all("tr")
+    for row in rows:
         text = " ".join(row.stripped_strings)
         if not CHAIR.search(text) or EXCLUDE.search(text):
             continue
@@ -74,6 +64,6 @@ def add_chair_speeches(cal, now):
                 total += append_event(cal, now, day, clock, "Fed Chair Speech",
                     f"fed-chair-speech-{day}-{clock.strftime('%H%M')}", url)
         except (requests.RequestException, ValueError) as exc:
-            logging.warning("Fed speech schedule unavailable (%s): %s", url, exc)
+            logging.info("Fed monthly calendar not yet available (%s): %s", url, exc)
     logging.info("Added %d verified chair speeches", total)
     return total
