@@ -104,12 +104,23 @@ def official_dates(fallback_fomc, fallback_ism):
         logging.warning("FOMC source unavailable; retaining known dates: %s", exc)
     try:
         parsed = parse_ism(get_html(ISM_URL))
-        if all(len(v) >= 10 for v in parsed.values()):
+        valid = True
+        for label, dates in parsed.items():
+            by_year = {}
+            for d in dates:
+                by_year.setdefault(d.year, set()).add(d)
+            if not by_year or any(len(items) < 10 or len(items) > 12 for items in by_year.values()):
+                valid = False
+            # A known year must agree with the checked-in official dates.
+            for year, known in ((2026, {d for d in fallback_ism[label] if d.year == 2026}),):
+                if year in by_year and known and not known.issubset(by_year[year]):
+                    valid = False
+        if valid:
             for label, dates in parsed.items():
                 ism[label] = sorted(set(ism[label]) | set(dates))
             logging.info("ISM: %d official release dates parsed", sum(map(len, parsed.values())))
         else:
-            logging.warning("ISM parser incomplete; retaining known dates")
+            logging.warning("ISM parser incomplete or inconsistent; retaining known dates")
     except Exception as exc:
         logging.warning("ISM source unavailable; retaining known dates: %s", exc)
     return fomc, ism
