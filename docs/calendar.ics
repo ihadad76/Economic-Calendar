@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261110T083000
 DTEND;TZID=America/New_York:20261110T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-10-2026-11-10@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -23,7 +23,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-10-2026-12-10@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-46-2026-11-13@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -55,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261215T083000
 DTEND;TZID=America/New_York:20261215T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-46-2026-12-15@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-50-2026-11-06@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -87,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261204T083000
 DTEND;TZID=America/New_York:20261204T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-50-2026-12-04@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
  is the standard agency release time\, not supplied by FRED. Verify against
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-53-2026-10-29@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -119,7 +119,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-53-2026-11-25@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -135,7 +135,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-53-2026-12-23@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
  e is the standard agency release time\, not supplied by FRED. Verify again
@@ -151,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-54-2026-10-29@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
@@ -167,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-54-2026-11-25@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
@@ -183,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T215154Z
+DTSTAMP:20261101T220525Z
 UID:fred-54-2026-12-23@economic-calendar
 DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
  . Time is the standard agency release time\, not supplied by FRED. Verify 
@@ -192,6 +192,374 @@ URL:https://fred.stlouisfed.org/releases?rid=54
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:PCE + Core PCE in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISM Manufacturing PMI
+DTSTART;TZID=America/New_York:20261102T100000
+DTEND;TZID=America/New_York:20261102T101500
+DTSTAMP:20261101T220525Z
+UID:ism-ism-manufacturing-pmi-2026-11-02@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
+ -calendar/
+URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
+ b-report-calendar/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISM Manufacturing PMI in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISM Manufacturing PMI
+DTSTART;TZID=America/New_York:20261201T100000
+DTEND;TZID=America/New_York:20261201T101500
+DTSTAMP:20261101T220525Z
+UID:ism-ism-manufacturing-pmi-2026-12-01@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
+ -calendar/
+URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
+ b-report-calendar/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISM Manufacturing PMI in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISM Services PMI
+DTSTART;TZID=America/New_York:20261104T100000
+DTEND;TZID=America/New_York:20261104T101500
+DTSTAMP:20261101T220525Z
+UID:ism-ism-services-pmi-2026-11-04@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
+ -calendar/
+URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
+ b-report-calendar/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISM Services PMI in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ISM Services PMI
+DTSTART;TZID=America/New_York:20261203T100000
+DTEND;TZID=America/New_York:20261203T101500
+DTSTAMP:20261101T220525Z
+UID:ism-ism-services-pmi-2026-12-03@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
+ -calendar/
+URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
+ b-report-calendar/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ISM Services PMI in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20261028T140000
+DTEND;TZID=America/New_York:20261028T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2026-10-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20261028T143000
+DTEND;TZID=America/New_York:20261028T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2026-10-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20261209T140000
+DTEND;TZID=America/New_York:20261209T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2026-12-09@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20261209T143000
+DTEND;TZID=America/New_York:20261209T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2026-12-09@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270127T140000
+DTEND;TZID=America/New_York:20270127T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-01-27@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270127T143000
+DTEND;TZID=America/New_York:20270127T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-01-27@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270317T140000
+DTEND;TZID=America/New_York:20270317T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-03-17@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270317T143000
+DTEND;TZID=America/New_York:20270317T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-03-17@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270428T140000
+DTEND;TZID=America/New_York:20270428T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-04-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270428T143000
+DTEND;TZID=America/New_York:20270428T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-04-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270609T140000
+DTEND;TZID=America/New_York:20270609T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-06-09@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270609T143000
+DTEND;TZID=America/New_York:20270609T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-06-09@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270728T140000
+DTEND;TZID=America/New_York:20270728T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-07-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270728T143000
+DTEND;TZID=America/New_York:20270728T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-07-28@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20270915T140000
+DTEND;TZID=America/New_York:20270915T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-09-15@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20270915T143000
+DTEND;TZID=America/New_York:20270915T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-09-15@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20271027T140000
+DTEND;TZID=America/New_York:20271027T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-10-27@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20271027T143000
+DTEND;TZID=America/New_York:20271027T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-10-27@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Rate Decision
+DTSTART;TZID=America/New_York:20271208T140000
+DTEND;TZID=America/New_York:20271208T141500
+DTSTAMP:20261101T220525Z
+UID:fomc-decision-2027-12-08@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Rate Decision in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FOMC Chair Press Conference
+DTSTART;TZID=America/New_York:20271208T143000
+DTEND;TZID=America/New_York:20271208T144500
+DTSTAMP:20261101T220525Z
+UID:fomc-press-2027-12-08@economic-calendar
+DESCRIPTION:Official published schedule. Check publisher for changes. http
+ s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FOMC Chair Press Conference in 30 minutes
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
