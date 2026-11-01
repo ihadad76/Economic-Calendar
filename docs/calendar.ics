@@ -7,11 +7,21 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261110T083000
 DTEND;TZID=America/New_York:20261110T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-10-2026-11-10@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
+ ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
+ ים ושירותים שמשקי בית רוכשים בארה״ב. מדד 
+ הליבה (Core CPI) מנטרל מזון ואנרגיה כדי לבחון
+  את מגמת האינפלציה הבסיסית.\n\nלמה זה חשוב 
+ למסחר? פער מהציפיות עשוי לשנות את תחזיות 
+ הריבית ולהוביל לתנודתיות חדה במדדי המני
+ ות\, באג״ח ובדולר.\n\nדירוג החשיבות הוא הער
+ כה כללית בלבד\; עוצמת התגובה בפועל אינה י
+ דועה מראש.\nמקור: https://fred.stlouisfed.org/releases?rid=10
+ \n\nהתאריך מבוסס על FRED\; שעת הפרסום היא השע
+ ה המקובלת ולא מתקבלת מ־FRED. יש לאמת שינויי
+ ם חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=10
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -23,11 +33,21 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-10-2026-12-10@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Consumer Price Index. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
+ ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
+ ים ושירותים שמשקי בית רוכשים בארה״ב. מדד 
+ הליבה (Core CPI) מנטרל מזון ואנרגיה כדי לבחון
+  את מגמת האינפלציה הבסיסית.\n\nלמה זה חשוב 
+ למסחר? פער מהציפיות עשוי לשנות את תחזיות 
+ הריבית ולהוביל לתנודתיות חדה במדדי המני
+ ות\, באג״ח ובדולר.\n\nדירוג החשיבות הוא הער
+ כה כללית בלבד\; עוצמת התגובה בפועל אינה י
+ דועה מראש.\nמקור: https://fred.stlouisfed.org/releases?rid=10
+ \n\nהתאריך מבוסס על FRED\; שעת הפרסום היא השע
+ ה המקובלת ולא מתקבלת מ־FRED. יש לאמת שינויי
+ ם חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=10
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -39,11 +59,20 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-46-2026-11-13@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
+ ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
+ יצרנים וספקים. מדד הליבה (Core PPI) מנטרל רכי
+ בים תנודתיים לפי הגדרת הפרסום.\n\nלמה זה ח
+ שוב למסחר? הנתון עשוי להשפיע על ציפיות הא
+ ינפלציה ועל תמחור הריבית\, במיוחד כשיש הפ
+ תעה ביחס לתחזיות.\n\nדירוג החשיבות הוא הער
+ כה כללית בלבד\; עוצמת התגובה בפועל אינה י
+ דועה מראש.\nמקור: https://fred.stlouisfed.org/releases?rid=46
+ \n\nהתאריך מבוסס על FRED\; שעת הפרסום היא השע
+ ה המקובלת ולא מתקבלת מ־FRED. יש לאמת שינויי
+ ם חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=46
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -55,11 +84,20 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261215T083000
 DTEND;TZID=America/New_York:20261215T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-46-2026-12-15@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Producer Price Index. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
+ ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
+ יצרנים וספקים. מדד הליבה (Core PPI) מנטרל רכי
+ בים תנודתיים לפי הגדרת הפרסום.\n\nלמה זה ח
+ שוב למסחר? הנתון עשוי להשפיע על ציפיות הא
+ ינפלציה ועל תמחור הריבית\, במיוחד כשיש הפ
+ תעה ביחס לתחזיות.\n\nדירוג החשיבות הוא הער
+ כה כללית בלבד\; עוצמת התגובה בפועל אינה י
+ דועה מראש.\nמקור: https://fred.stlouisfed.org/releases?rid=46
+ \n\nהתאריך מבוסס על FRED\; שעת הפרסום היא השע
+ ה המקובלת ולא מתקבלת מ־FRED. יש לאמת שינויי
+ ם חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=46
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -71,11 +109,19 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-50-2026-11-06@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
+ סוקה כולל את השינוי במספר המשרות מחוץ למ
+ גזר החקלאי (NFP) ואת שיעור האבטלה בארה״ב.\n\n
+ למה זה חשוב למסחר? הפתעות בתעסוקה ובאבטל
+ ה עשויות לשנות את ציפיות הריבית ולגרום ל
+ תנודתיות גבוהה בשווקים.\n\nדירוג החשיבות 
+ הוא הערכה כללית בלבד\; עוצמת התגובה בפועל
+  אינה ידועה מראש.\nמקור: https://fred.stlouisfed.org/rele
+ ases?rid=50\n\nהתאריך מבוסס על FRED\; שעת הפרסום ה
+ יא השעה המקובלת ולא מתקבלת מ־FRED. יש לאמת 
+ שינויים חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=50
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -87,11 +133,19 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261204T083000
 DTEND;TZID=America/New_York:20261204T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-50-2026-12-04@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Employment Situation. Time 
- is the standard agency release time\, not supplied by FRED. Verify against
-  the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
+ סוקה כולל את השינוי במספר המשרות מחוץ למ
+ גזר החקלאי (NFP) ואת שיעור האבטלה בארה״ב.\n\n
+ למה זה חשוב למסחר? הפתעות בתעסוקה ובאבטל
+ ה עשויות לשנות את ציפיות הריבית ולגרום ל
+ תנודתיות גבוהה בשווקים.\n\nדירוג החשיבות 
+ הוא הערכה כללית בלבד\; עוצמת התגובה בפועל
+  אינה ידועה מראש.\nמקור: https://fred.stlouisfed.org/rele
+ ases?rid=50\n\nהתאריך מבוסס על FRED\; שעת הפרסום ה
+ יא השעה המקובלת ולא מתקבלת מ־FRED. יש לאמת 
+ שינויים חריגים מול הגוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=50
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -103,11 +157,20 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-53-2026-10-29@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
- e is the standard agency release time\, not supplied by FRED. Verify again
- st the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
+ מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
+ ת בארה״ב ואת קצב הצמיחה או ההתכווצות שלה.
+ \n\nלמה זה חשוב למסחר? נתון שונה מהצפוי עשו
+ י לשנות את הערכת מצב הכלכלה\, אך ההשפעה תל
+ ויה גם בשלב הפרסום ובנתונים שכבר ידועים.
+ \n\nדירוג החשיבות הוא הערכה כללית בלבד\; עו
+ צמת התגובה בפועל אינה ידועה מראש.\nמקור: ht
+ tps://fred.stlouisfed.org/releases?rid=53\n\nהתאריך מבוסס על 
+ FRED\; שעת הפרסום היא השעה המקובלת ולא מתקב
+ לת מ־FRED. יש לאמת שינויים חריגים מול הגוף 
+ המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=53
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -119,11 +182,20 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-53-2026-11-25@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
- e is the standard agency release time\, not supplied by FRED. Verify again
- st the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
+ מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
+ ת בארה״ב ואת קצב הצמיחה או ההתכווצות שלה.
+ \n\nלמה זה חשוב למסחר? נתון שונה מהצפוי עשו
+ י לשנות את הערכת מצב הכלכלה\, אך ההשפעה תל
+ ויה גם בשלב הפרסום ובנתונים שכבר ידועים.
+ \n\nדירוג החשיבות הוא הערכה כללית בלבד\; עו
+ צמת התגובה בפועל אינה ידועה מראש.\nמקור: ht
+ tps://fred.stlouisfed.org/releases?rid=53\n\nהתאריך מבוסס על 
+ FRED\; שעת הפרסום היא השעה המקובלת ולא מתקב
+ לת מ־FRED. יש לאמת שינויים חריגים מול הגוף 
+ המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=53
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -135,11 +207,20 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-53-2026-12-23@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Gross Domestic Product. Tim
- e is the standard agency release time\, not supplied by FRED. Verify again
- st the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
+ מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
+ ת בארה״ב ואת קצב הצמיחה או ההתכווצות שלה.
+ \n\nלמה זה חשוב למסחר? נתון שונה מהצפוי עשו
+ י לשנות את הערכת מצב הכלכלה\, אך ההשפעה תל
+ ויה גם בשלב הפרסום ובנתונים שכבר ידועים.
+ \n\nדירוג החשיבות הוא הערכה כללית בלבד\; עו
+ צמת התגובה בפועל אינה ידועה מראש.\nמקור: ht
+ tps://fred.stlouisfed.org/releases?rid=53\n\nהתאריך מבוסס על 
+ FRED\; שעת הפרסום היא השעה המקובלת ולא מתקב
+ לת מ־FRED. יש לאמת שינויים חריגים מול הגוף 
+ המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=53
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -151,11 +232,20 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-54-2026-10-29@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
- . Time is the standard agency release time\, not supplied by FRED. Verify 
- against the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
+ ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
+ PCE מנטרל מזון ואנרגיה ונחשב למדד מרכזי בה
+ ערכת האינפלציה של הפד.\n\nלמה זה חשוב למסח
+ ר? סטייה מהתחזיות עשויה להשפיע על ציפיות 
+ המדיניות המוניטרית ועל תנועת המדדים והא
+ ג״ח.\n\nדירוג החשיבות הוא הערכה כללית בלבד
+ \; עוצמת התגובה בפועל אינה ידועה מראש.\nמק
+ ור: https://fred.stlouisfed.org/releases?rid=54\n\nהתאריך מבוס
+ ס על FRED\; שעת הפרסום היא השעה המקובלת ולא 
+ מתקבלת מ־FRED. יש לאמת שינויים חריגים מול ה
+ גוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=54
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -167,11 +257,20 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-54-2026-11-25@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
- . Time is the standard agency release time\, not supplied by FRED. Verify 
- against the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
+ ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
+ PCE מנטרל מזון ואנרגיה ונחשב למדד מרכזי בה
+ ערכת האינפלציה של הפד.\n\nלמה זה חשוב למסח
+ ר? סטייה מהתחזיות עשויה להשפיע על ציפיות 
+ המדיניות המוניטרית ועל תנועת המדדים והא
+ ג״ח.\n\nדירוג החשיבות הוא הערכה כללית בלבד
+ \; עוצמת התגובה בפועל אינה ידועה מראש.\nמק
+ ור: https://fred.stlouisfed.org/releases?rid=54\n\nהתאריך מבוס
+ ס על FRED\; שעת הפרסום היא השעה המקובלת ולא 
+ מתקבלת מ־FRED. יש לאמת שינויים חריגים מול ה
+ גוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=54
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -183,11 +282,20 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fred-54-2026-12-23@economic-calendar
-DESCRIPTION:Scheduled date via FRED\, release: Personal Income and Outlays
- . Time is the standard agency release time\, not supplied by FRED. Verify 
- against the issuing agency for exceptional schedule changes.
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
+ ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
+ PCE מנטרל מזון ואנרגיה ונחשב למדד מרכזי בה
+ ערכת האינפלציה של הפד.\n\nלמה זה חשוב למסח
+ ר? סטייה מהתחזיות עשויה להשפיע על ציפיות 
+ המדיניות המוניטרית ועל תנועת המדדים והא
+ ג״ח.\n\nדירוג החשיבות הוא הערכה כללית בלבד
+ \; עוצמת התגובה בפועל אינה ידועה מראש.\nמק
+ ור: https://fred.stlouisfed.org/releases?rid=54\n\nהתאריך מבוס
+ ס על FRED\; שעת הפרסום היא השעה המקובלת ולא 
+ מתקבלת מ־FRED. יש לאמת שינויים חריגים מול ה
+ גוף המפרסם.
 URL:https://fred.stlouisfed.org/releases?rid=54
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -199,11 +307,21 @@ BEGIN:VEVENT
 SUMMARY:ISM Manufacturing PMI
 DTSTART;TZID=America/New_York:20261102T100000
 DTEND;TZID=America/New_York:20261102T101500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:ism-ism-manufacturing-pmi-2026-11-02@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
- -calendar/
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
+ כש בתעשייה (ISM Manufacturing PMI) משקף את מצב הפעי
+ לות במגזר הייצור. מעל 50 מעיד בדרך כלל על ה
+ תרחבות ומתחת ל־50 על התכווצות.\n\nלמה זה חש
+ וב למסחר? הפתעות במדד וברכיביו עשויות לה
+ שפיע על ציפיות הצמיחה\, האינפלציה והריבי
+ ת.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.ismworld.org/supply-management-news-and-reports/reports/rob-
+ report-calendar/\n\nהמועד מבוסס על לוח פרסומים רש
+ מי או על רשימת תאריכים מאומתת ששמורה במע
+ רכת. יש לאמת שינויים חריגים מול הגוף המפר
+ סם.
 URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
  b-report-calendar/
 BEGIN:VALARM
@@ -216,11 +334,21 @@ BEGIN:VEVENT
 SUMMARY:ISM Manufacturing PMI
 DTSTART;TZID=America/New_York:20261201T100000
 DTEND;TZID=America/New_York:20261201T101500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:ism-ism-manufacturing-pmi-2026-12-01@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
- -calendar/
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
+ כש בתעשייה (ISM Manufacturing PMI) משקף את מצב הפעי
+ לות במגזר הייצור. מעל 50 מעיד בדרך כלל על ה
+ תרחבות ומתחת ל־50 על התכווצות.\n\nלמה זה חש
+ וב למסחר? הפתעות במדד וברכיביו עשויות לה
+ שפיע על ציפיות הצמיחה\, האינפלציה והריבי
+ ת.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.ismworld.org/supply-management-news-and-reports/reports/rob-
+ report-calendar/\n\nהמועד מבוסס על לוח פרסומים רש
+ מי או על רשימת תאריכים מאומתת ששמורה במע
+ רכת. יש לאמת שינויים חריגים מול הגוף המפר
+ סם.
 URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
  b-report-calendar/
 BEGIN:VALARM
@@ -233,11 +361,21 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261104T100000
 DTEND;TZID=America/New_York:20261104T101500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:ism-ism-services-pmi-2026-11-04@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
- -calendar/
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
+ כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
+ ת במגזר השירותים האמריקאי. מעל 50 מעיד בדר
+ ך כלל על התרחבות ומתחת ל־50 על התכווצות.\n\n
+ למה זה חשוב למסחר? נתון מפתיע עשוי להשפיע
+  על ציפיות הצמיחה\, האינפלציה והריבית ולה
+ וביל לתנודתיות.\n\nדירוג החשיבות הוא הערכ
+ ה כללית בלבד\; עוצמת התגובה בפועל אינה יד
+ ועה מראש.\nמקור: https://www.ismworld.org/supply-management-new
+ s-and-reports/reports/rob-report-calendar/\n\nהמועד מבוסס על 
+ לוח פרסומים רשמי או על רשימת תאריכים מאו
+ מתת ששמורה במערכת. יש לאמת שינויים חריגי
+ ם מול הגוף המפרסם.
 URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
  b-report-calendar/
 BEGIN:VALARM
@@ -250,11 +388,21 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261203T100000
 DTEND;TZID=America/New_York:20261203T101500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:ism-ism-services-pmi-2026-12-03@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.ismworld.org/supply-management-news-and-reports/reports/rob-report
- -calendar/
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
+ כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
+ ת במגזר השירותים האמריקאי. מעל 50 מעיד בדר
+ ך כלל על התרחבות ומתחת ל־50 על התכווצות.\n\n
+ למה זה חשוב למסחר? נתון מפתיע עשוי להשפיע
+  על ציפיות הצמיחה\, האינפלציה והריבית ולה
+ וביל לתנודתיות.\n\nדירוג החשיבות הוא הערכ
+ ה כללית בלבד\; עוצמת התגובה בפועל אינה יד
+ ועה מראש.\nמקור: https://www.ismworld.org/supply-management-new
+ s-and-reports/reports/rob-report-calendar/\n\nהמועד מבוסס על 
+ לוח פרסומים רשמי או על רשימת תאריכים מאו
+ מתת ששמורה במערכת. יש לאמת שינויים חריגי
+ ם מול הגוף המפרסם.
 URL:https://www.ismworld.org/supply-management-news-and-reports/reports/ro
  b-report-calendar/
 BEGIN:VALARM
@@ -267,10 +415,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20261028T140000
 DTEND;TZID=America/New_York:20261028T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2026-10-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -282,10 +440,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20261028T143000
 DTEND;TZID=America/New_York:20261028T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2026-10-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -297,10 +465,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20261209T140000
 DTEND;TZID=America/New_York:20261209T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2026-12-09@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -312,10 +490,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20261209T143000
 DTEND;TZID=America/New_York:20261209T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2026-12-09@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -327,10 +515,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270127T140000
 DTEND;TZID=America/New_York:20270127T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-01-27@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -342,10 +540,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270127T143000
 DTEND;TZID=America/New_York:20270127T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-01-27@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -357,10 +565,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270317T140000
 DTEND;TZID=America/New_York:20270317T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-03-17@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -372,10 +590,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270317T143000
 DTEND;TZID=America/New_York:20270317T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-03-17@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -387,10 +615,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270428T140000
 DTEND;TZID=America/New_York:20270428T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-04-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -402,10 +640,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270428T143000
 DTEND;TZID=America/New_York:20270428T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-04-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -417,10 +665,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270609T140000
 DTEND;TZID=America/New_York:20270609T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-06-09@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -432,10 +690,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270609T143000
 DTEND;TZID=America/New_York:20270609T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-06-09@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -447,10 +715,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270728T140000
 DTEND;TZID=America/New_York:20270728T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-07-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -462,10 +740,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270728T143000
 DTEND;TZID=America/New_York:20270728T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-07-28@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -477,10 +765,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270915T140000
 DTEND;TZID=America/New_York:20270915T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-09-15@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -492,10 +790,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270915T143000
 DTEND;TZID=America/New_York:20270915T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-09-15@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -507,10 +815,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271027T140000
 DTEND;TZID=America/New_York:20271027T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-10-27@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -522,10 +840,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271027T143000
 DTEND;TZID=America/New_York:20271027T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-10-27@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -537,10 +865,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271208T140000
 DTEND;TZID=America/New_York:20271208T141500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-decision-2027-12-08@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
+ וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
+ ריבית ואת הודעת המדיניות המוניטרית.\n\nלמ
+ ה זה חשוב למסחר? החלטה או ניסוח מפתיעים ע
+ שויים לגרום לתנועות חדות במדדי המניות\, ב
+ אג״ח\, בדולר ובזהב.\n\nדירוג החשיבות הוא הע
+ רכה כללית בלבד\; עוצמת התגובה בפועל אינה 
+ ידועה מראש.\nמקור: https://www.federalreserve.gov/monetarypol
+ icy/fomccalendars.htm\n\nהמועד מבוסס על לוח פרסומים 
+ רשמי או על רשימת תאריכים מאומתת ששמורה ב
+ מערכת. יש לאמת שינויים חריגים מול הגוף המ
+ פרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -552,10 +890,20 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271208T143000
 DTEND;TZID=America/New_York:20271208T144500
-DTSTAMP:20261101T224401Z
+DTSTAMP:20261101T225403Z
 UID:fomc-press-2027-12-08@economic-calendar
-DESCRIPTION:Official published schedule. Check publisher for changes. http
- s://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
+ העיתונאים יו״ר הפד מסביר את החלטת הריבית
+  ומתייחס למצב הכלכלה ולכיוון המדיניות הע
+ תידי.\n\nלמה זה חשוב למסחר? התבטאויות על אי
+ נפלציה\, תעסוקה וריבית עתידית עשויות ליצ
+ ור תנודתיות משמעותית גם אחרי פרסום ההחלט
+ ה.\n\nדירוג החשיבות הוא הערכה כללית בלבד\; 
+ עוצמת התגובה בפועל אינה ידועה מראש.\nמקור
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nהמ
+ ועד מבוסס על לוח פרסומים רשמי או על רשימת
+  תאריכים מאומתת ששמורה במערכת. יש לאמת שי
+ נויים חריגים מול הגוף המפרסם.
 URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 BEGIN:VALARM
 ACTION:DISPLAY
