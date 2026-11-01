@@ -21,30 +21,47 @@ EXCLUDE = re.compile(r"\bvice\s+chair\b", re.I)
 
 def parse_month(html, year, month, now, url):
     soup = BeautifulSoup(html, "html.parser")
-    # Some months have no Speeches section at all. Search individual rows;
-    # the strict speech/discussion + chair filter prevents unrelated releases.
+    # The Fed's calendar is not necessarily a table. The speech entries
+    # appear as time, title, details, then the day of the month.
+    heading = soup.find(lambda tag: tag.name in ("h2", "h3", "h4", "h5", "h6")
+                        and tag.get_text(" ", strip=True).lower() == "speeches")
+    if heading is None:
+        return []
+    tokens = []
+    for node in heading.next_elements:
+        if getattr(node, "name", None) in ("h2", "h3", "h4", "h5", "h6") and node is not heading:
+            break
+        if isinstance(node, __import__("bs4").NavigableString):
+            value = str(node).strip()
+            if value:
+                tokens.append(value)
     result = []
-    rows = soup.find_all("tr")
-    for row in rows:
-        text = " ".join(row.stripped_strings)
-        if not CHAIR.search(text) or EXCLUDE.search(text):
-            continue
-        clock = TIME.search(text)
+    for i, token in enumerate(tokens):
+        clock = TIME.fullmatch(token.strip())
         if not clock:
             continue
-        # Only accept a single, unambiguous calendar day in a dedicated cell.
-        days = []
-        for cell in row.find_all(["td", "th"], recursive=False):
-            val = cell.get_text(" ", strip=True)
-            if re.fullmatch(r"\d{1,2}", val):
-                days.append(int(val))
-        if len(days) != 1 or not 1 <= days[0] <= monthcal.monthrange(year, month)[1]:
+        # Each entry ends with a single numeric release day; inspect only
+        # the text belonging to this entry, never the next speaker.
+        following = []
+        day = None
+        for value in tokens[i + 1:i + 22]:
+            if re.fullmatch(r"\\d{1,2}", value):
+                day = int(value)
+                break
+            if TIME.fullmatch(value):
+                break
+            following.append(value)
+        if day is None or not 1 <= day <= monthcal.monthrange(year, month)[1]:
+            continue
+        title = next((v for v in following if re.search(r"\\b(speech|discussion|remarks|testimony)\\s*[-–:]", v, re.I)), "")
+        if not CHAIR.search(title) or EXCLUDE.search(title):
             continue
         hour = int(clock.group(1)) % 12 + (12 if clock.group(3).lower() == "p" else 0)
-        d = date(year, month, days[0])
-        if datetime.combine(d, time(hour, int(clock.group(2))), tzinfo=__import__("zoneinfo").ZoneInfo("America/New_York")) < now.astimezone(__import__("zoneinfo").ZoneInfo("America/New_York")) - timedelta(days=7):
+        d = date(year, month, day)
+        event_time = time(hour, int(clock.group(2)))
+        if datetime.combine(d, event_time, tzinfo=__import__("zoneinfo").ZoneInfo("America/New_York")) < now.astimezone(__import__("zoneinfo").ZoneInfo("America/New_York")) - timedelta(days=7):
             continue
-        result.append((d, time(hour, int(clock.group(2))), text[:160]))
+        result.append((d, event_time, " ".join(following)[:160]))
     return result
 
 def add_chair_speeches(cal, now):
