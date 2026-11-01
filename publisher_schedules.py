@@ -83,7 +83,9 @@ def official_dates(fallback_fomc, fallback_ism):
     try:
         parsed = parse_fomc(get_html(FED_URL))
         years = {d.year for d in parsed}
-        if parsed and all(sum(d.year == y for d in parsed) >= 7 for y in years):
+        # Regular FOMC years have eight scheduled meetings. Reject any year
+        # with implausibly many parsed dates (the page also lists archives).
+        if parsed and all(7 <= sum(d.year == y for d in parsed) <= 9 for y in years):
             fomc = sorted(set(fomc) | set(parsed))
             logging.info("FOMC: %d official dates parsed", len(parsed))
         else:
