@@ -11,6 +11,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from icalendar import Calendar, Event, Alarm
+from official_schedules import add_official_schedules
 
 API = "https://api.stlouisfed.org/fred"
 NY = ZoneInfo("America/New_York")
@@ -92,6 +93,7 @@ def main():
             event.add_component(alarm)
             calendar.add_component(event)
             total += 1
+    total += add_official_schedules(calendar, now)
     if total < len(RELEASES):
         raise RuntimeError("Insufficient release dates; refusing to publish")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
