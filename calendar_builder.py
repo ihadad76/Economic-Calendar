@@ -14,6 +14,7 @@ from icalendar import Calendar, Event, Alarm
 from official_schedules import add_official_schedules
 from fed_speeches import add_chair_speeches
 from event_descriptions import event_description
+from spglobal_pmi import add_spglobal_pmi
 
 API = "https://api.stlouisfed.org/fred"
 NY = ZoneInfo("America/New_York")
@@ -95,6 +96,7 @@ def main():
             calendar.add_component(event)
             total += 1
     total += add_official_schedules(calendar, now)
+    total += add_spglobal_pmi(calendar, now)
     total += add_chair_speeches(calendar, now)
     if total < len(RELEASES):
         raise RuntimeError("Insufficient release dates; refusing to publish")
