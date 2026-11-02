@@ -20,18 +20,18 @@ NY = ZoneInfo("America/New_York")
 def parse_releases(html):
     soup = BeautifulSoup(html, "html.parser")
     # Publisher lists entries under month/day headings with times in UTC.
-    lines = [re.sub(r"\\s+", " ", x).strip() for x in soup.get_text("\\n").splitlines()]
+    lines = [re.sub(r"\s+", " ", x).strip() for x in soup.get_text("\n").splitlines()]
     lines = [x for x in lines if x]
     year = None
     day = None
     result = {}
     for i, line in enumerate(lines):
-        ym = re.fullmatch(r"20\\d{2}", line)
+        ym = re.fullmatch(r"20\d{2}", line)
         if ym:
             year = int(line)
             day = None
             continue
-        dm = re.fullmatch(r"(" + "|".join(MONTHS) + r")\\s+(\\d{1,2})", line, re.I)
+        dm = re.fullmatch(r"(" + "|".join(MONTHS) + r")\s+(\d{1,2})", line, re.I)
         if dm and year:
             try:
                 day = datetime(year, MONTHS[dm.group(1).lower()], int(dm.group(2)))
@@ -41,14 +41,14 @@ def parse_releases(html):
         if day is None:
             continue
         # Allow both one-line and split time/description publisher layouts.
-        match = re.match(r"^(\\d{2}:\\d{2})\\s*(?:UTC)?\\s*(.*)$", line, re.I)
+        match = re.match(r"^(\d{2}:\d{2})\s*(?:UTC)?\s*(.*)$", line, re.I)
         if not match:
             continue
         title = match.group(2) or (lines[i + 1] if i + 1 < len(lines) else "")
-        title = re.sub(r"\\s+", " ", title)
-        flash = bool(re.search(r"\\bFlash\\b", title, re.I))
-        us = bool(re.search(r"\\b(?:US|United States)\\b", title, re.I))
-        if not us or not re.search(r"\\bPMI\\b", title, re.I):
+        title = re.sub(r"\s+", " ", title)
+        flash = bool(re.search(r"\bFlash\b", title, re.I))
+        us = bool(re.search(r"\b(?:US|United States)\b", title, re.I))
+        if not us or not re.search(r"\bPMI\b", title, re.I):
             continue
         # US flash release combines manufacturing and services; final releases separate.
         if flash:
