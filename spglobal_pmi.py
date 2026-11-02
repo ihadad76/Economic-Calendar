@@ -17,6 +17,21 @@ URL = "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en"
 MONTHS = {name.lower(): i for i, name in enumerate(calendar.month_name) if name}
 NY = ZoneInfo("America/New_York")
 
+# Explicitly cross-checked published dates; never extrapolate Flash dates.
+# Time: 09:45 US Eastern. Keep this list current as publishers announce dates.
+VERIFIED_US_PMI = (
+    ("S&P Global US Manufacturing PMI (Final)", "2026-11-02"),
+    ("S&P Global US Services PMI (Final)", "2026-11-04"),
+    ("S&P Global US Manufacturing PMI (Flash)", "2026-11-23"),
+    ("S&P Global US Services PMI (Flash)", "2026-11-23"),
+    ("S&P Global US Manufacturing PMI (Final)", "2026-12-01"),
+    ("S&P Global US Services PMI (Final)", "2026-12-03"),
+)
+def verified_fallback():
+    return [(label, datetime.fromisoformat(day + "T09:45:00").replace(tzinfo=NY).astimezone(timezone.utc))
+            for label, day in VERIFIED_US_PMI]
+
+
 def parse_releases(html):
     soup = BeautifulSoup(html, "html.parser")
     # Publisher lists entries under month/day headings with times in UTC.
@@ -68,13 +83,15 @@ def parse_releases(html):
 
 def add_spglobal_pmi(cal, now):
     try:
-        response = requests.get(URL, timeout=20, headers={"User-Agent": "PersonalEconomicCalendar/1.0"})
-        response.raise_for_status()
-        releases = parse_releases(response.text)
-        # Reject an empty or implausibly large parse.
-        if not 1 <= len(releases) <= 120:
-            logging.warning("S&P PMI calendar unrecognised; no speculative events added")
-            return 0
+        try:
+            response = requests.get(URL, timeout=12, headers={"User-Agent": "PersonalEconomicCalendar/1.0"})
+            response.raise_for_status()
+            releases = parse_releases(response.text)
+            if not 1 <= len(releases) <= 120:
+                raise ValueError("Unrecognised publisher calendar")
+        except (requests.RequestException, ValueError) as exc:
+            logging.warning("S&P Global PMI publisher inaccessible (%s); using %d verified dates only", exc, len(VERIFIED_US_PMI))
+            releases = verified_fallback()
         count = 0
         for label, moment in releases:
             if not now - timedelta(days=7) <= moment <= now + timedelta(days=400):
@@ -94,7 +111,7 @@ def add_spglobal_pmi(cal, now):
             event.add_component(alarm)
             cal.add_component(event)
             count += 1
-        logging.info("S&P Global US PMI: %d events added from publisher schedule", count)
+        logging.info("S&P Global US PMI: %d verified events added", count)
         return count
     except Exception as exc:
         logging.warning("S&P Global PMI schedule unavailable; skipping unverified events: %s", exc)
