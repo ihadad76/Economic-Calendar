@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261110T083000
 DTEND;TZID=America/New_York:20261110T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-10-2026-11-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
  ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-10-2026-12-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
  ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-46-2026-11-13@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
  ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
@@ -84,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261215T083000
 DTEND;TZID=America/New_York:20261215T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-46-2026-12-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
  ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-50-2026-11-06@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
  סוקה כולל את השינוי במספר המשרות מחוץ למ
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261204T083000
 DTEND;TZID=America/New_York:20261204T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-50-2026-12-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
  סוקה כולל את השינוי במספר המשרות מחוץ למ
@@ -157,7 +157,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-53-2026-10-29@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
  מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
@@ -182,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-53-2026-11-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
  מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-53-2026-12-23@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
  מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
@@ -232,7 +232,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261029T083000
 DTEND;TZID=America/New_York:20261029T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-54-2026-10-29@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
  ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
@@ -257,7 +257,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-54-2026-11-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
  ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
@@ -282,7 +282,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fred-54-2026-12-23@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
  ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
@@ -307,7 +307,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Manufacturing PMI
 DTSTART;TZID=America/New_York:20261102T100000
 DTEND;TZID=America/New_York:20261102T101500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:ism-ism-manufacturing-pmi-2026-11-02@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בתעשייה (ISM Manufacturing PMI) משקף את מצב הפעי
@@ -334,7 +334,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Manufacturing PMI
 DTSTART;TZID=America/New_York:20261201T100000
 DTEND;TZID=America/New_York:20261201T101500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:ism-ism-manufacturing-pmi-2026-12-01@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בתעשייה (ISM Manufacturing PMI) משקף את מצב הפעי
@@ -361,7 +361,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261104T100000
 DTEND;TZID=America/New_York:20261104T101500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:ism-ism-services-pmi-2026-11-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
@@ -388,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261203T100000
 DTEND;TZID=America/New_York:20261203T101500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:ism-ism-services-pmi-2026-12-03@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
@@ -415,7 +415,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20261028T140000
 DTEND;TZID=America/New_York:20261028T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2026-10-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -440,7 +440,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20261028T143000
 DTEND;TZID=America/New_York:20261028T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2026-10-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -465,7 +465,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20261209T140000
 DTEND;TZID=America/New_York:20261209T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2026-12-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -490,7 +490,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20261209T143000
 DTEND;TZID=America/New_York:20261209T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2026-12-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -515,7 +515,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270127T140000
 DTEND;TZID=America/New_York:20270127T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-01-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -540,7 +540,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270127T143000
 DTEND;TZID=America/New_York:20270127T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-01-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -565,7 +565,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270317T140000
 DTEND;TZID=America/New_York:20270317T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-03-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -590,7 +590,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270317T143000
 DTEND;TZID=America/New_York:20270317T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-03-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -615,7 +615,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270428T140000
 DTEND;TZID=America/New_York:20270428T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-04-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -640,7 +640,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270428T143000
 DTEND;TZID=America/New_York:20270428T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-04-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -665,7 +665,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270609T140000
 DTEND;TZID=America/New_York:20270609T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-06-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -690,7 +690,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270609T143000
 DTEND;TZID=America/New_York:20270609T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-06-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -715,7 +715,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270728T140000
 DTEND;TZID=America/New_York:20270728T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-07-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -740,7 +740,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270728T143000
 DTEND;TZID=America/New_York:20270728T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-07-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -765,7 +765,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270915T140000
 DTEND;TZID=America/New_York:20270915T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-09-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -790,7 +790,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270915T143000
 DTEND;TZID=America/New_York:20270915T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-09-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -815,7 +815,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271027T140000
 DTEND;TZID=America/New_York:20271027T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-10-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -840,7 +840,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271027T143000
 DTEND;TZID=America/New_York:20271027T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-10-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -865,7 +865,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271208T140000
 DTEND;TZID=America/New_York:20271208T141500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-decision-2027-12-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -890,7 +890,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271208T143000
 DTEND;TZID=America/New_York:20271208T144500
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:fomc-press-2027-12-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -915,7 +915,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Manufacturing PMI (Final)
 DTSTART;TZID=America/New_York:20261102T094500
 DTEND;TZID=America/New_York:20261102T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-manufacturing-pmi-final-20261102T1445Z@economic
  -calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -938,7 +938,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Final)
 DTSTART;TZID=America/New_York:20261104T094500
 DTEND;TZID=America/New_York:20261104T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-services-pmi-final-20261104T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -961,7 +961,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Manufacturing PMI (Flash)
 DTSTART;TZID=America/New_York:20261123T094500
 DTEND;TZID=America/New_York:20261123T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-manufacturing-pmi-flash-20261123T1445Z@economic
  -calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nאומדן ראשוני
@@ -984,7 +984,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Flash)
 DTSTART;TZID=America/New_York:20261123T094500
 DTEND;TZID=America/New_York:20261123T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-services-pmi-flash-20261123T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nאומדן ראשוני
@@ -1007,7 +1007,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Manufacturing PMI (Final)
 DTSTART;TZID=America/New_York:20261201T094500
 DTEND;TZID=America/New_York:20261201T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-manufacturing-pmi-final-20261201T1445Z@economic
  -calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -1030,7 +1030,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Final)
 DTSTART;TZID=America/New_York:20261203T094500
 DTEND;TZID=America/New_York:20261203T100000
-DTSTAMP:20261103T025443Z
+DTSTAMP:20261103T124657Z
 UID:spglobal-s-p-global-us-services-pmi-final-20261203T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
