@@ -1,6 +1,7 @@
 """Hebrew event explanations and trading-impact context for calendar entries."""
 
 EVENT_INFO = {
+    "Weekly Jobless Claims (Initial + Continuing)": ("בינונית", "דוח שבועי של משרד העבודה האמריקאי. Initial Claims מודד בקשות חדשות לדמי אבטלה; Continuing Claims מודד תביעות נמשכות. הנתונים מתייחסים לשבועות מדידה שונים.", "הפתעה משמעותית לעומת התחזיות עשויה להשפיע על ציפיות הריבית ועל מדדי NQ ו־ES."),
     "S&P Global US Manufacturing PMI (Flash)": ("גבוהה", "אומדן ראשוני למצב פעילות התעשייה בארה״ב על פי סקר S&P Global.", "פרסום מוקדם ומפתיע עשוי להשפיע על ציפיות הצמיחה והריבית."),
     "S&P Global US Services PMI (Flash)": ("גבוהה", "אומדן ראשוני למצב מגזר השירותים בארה״ב על פי סקר S&P Global.", "הפתעה עשויה להשפיע על ציפיות הצמיחה והריבית ועל תנודתיות המדדים."),
     "S&P Global US Manufacturing PMI (Final)": ("בינונית", "הקריאה הסופית של סקר מנהלי הרכש בתעשייה של S&P Global.", "ההשפעה תלויה בעיקר בשינוי לעומת אומדן ה־Flash ובציפיות."),
