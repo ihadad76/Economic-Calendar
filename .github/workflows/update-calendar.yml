@@ -10,6 +10,7 @@ on:
       - jobless_claims.py
       - event_descriptions.py
       - spglobal_pmi.py
+      - market_holidays.py
       - requirements.txt
       - .github/workflows/update-calendar.yml
 permissions:
