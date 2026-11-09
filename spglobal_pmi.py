@@ -91,7 +91,7 @@ def fetch_flash_backup(now):
     response.raise_for_status()
     text = BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True)
     match = re.search(
-        r"Next Release\\s+([A-Z][a-z]+)\\s+(\\d{1,2})(?:st|nd|rd|th)?,?\\s+(20\\d{2})\\s*[·\\-–]?\\s*(\\d{1,2}):(\\d{2})\\s*(AM|PM)",
+        r"Next Release\s+([A-Z][a-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20\d{2})\s*[·\-–]?\s*(\d{1,2}):(\d{2})\s*(AM|PM)",
         text, re.I,
     )
     if not match:
