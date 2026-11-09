@@ -81,6 +81,37 @@ def parse_releases(html):
             result[(key, moment)] = (key, moment)
     return sorted(result.values(), key=lambda x: x[1])
 
+
+# Secondary published event listing; only accept an explicit next US Flash PMI
+# date and time, never infer monthly dates from past releases.
+FLASH_BACKUP_URL = "https://www.mtsinsights.com/events/4745/"
+
+def fetch_flash_backup(now):
+    response = requests.get(FLASH_BACKUP_URL, timeout=12, headers={"User-Agent": "PersonalEconomicCalendar/1.0"})
+    response.raise_for_status()
+    text = BeautifulSoup(response.text, "html.parser").get_text(" ", strip=True)
+    match = re.search(
+        r"Next Release\\s+([A-Z][a-z]+)\\s+(\\d{1,2})(?:st|nd|rd|th)?,?\\s+(20\\d{2})\\s*[·\\-–]?\\s*(\\d{1,2}):(\\d{2})\\s*(AM|PM)",
+        text, re.I,
+    )
+    if not match:
+        raise ValueError("No explicit next-release timestamp on backup page")
+    month = MONTHS.get(match.group(1).lower())
+    if not month:
+        raise ValueError("Unknown backup month")
+    hour = int(match.group(4)) % 12 + (12 if match.group(6).upper() == "PM" else 0)
+    minute = int(match.group(5))
+    # US Flash PMI is normally 09:45 ET; reject any unexpected clock change
+    # pending confirmation from the publisher.
+    if (hour, minute) != (9, 45):
+        raise ValueError("Unexpected backup release time; manual review required")
+    moment = datetime(int(match.group(3)), month, int(match.group(2)),
+                      hour, minute, tzinfo=NY).astimezone(timezone.utc)
+    if not now - timedelta(days=7) <= moment <= now + timedelta(days=65):
+        raise ValueError("Backup release date outside plausible near-term window")
+    return [(f"S&P Global US {sector} PMI (Flash)", moment)
+            for sector in ("Manufacturing", "Services")]
+
 def add_spglobal_pmi(cal, now):
     try:
         try:
@@ -92,6 +123,24 @@ def add_spglobal_pmi(cal, now):
         except (requests.RequestException, ValueError) as exc:
             logging.warning("S&P Global PMI publisher inaccessible (%s); using %d verified dates only", exc, len(VERIFIED_US_PMI))
             releases = verified_fallback()
+            try:
+                backup = fetch_flash_backup(now)
+                # Only trust the secondary listing when it does not contradict
+                # an already-verified flash release for the same month.
+                for label, moment in backup:
+                    known = [t for name, t in releases
+                             if name == label and t.astimezone(NY).strftime("%Y-%m") == moment.astimezone(NY).strftime("%Y-%m")]
+                    if known and any(t != moment for t in known):
+                        logging.error("PMI backup contradicts verified schedule: %s", label)
+                    elif not known:
+                        releases.append((label, moment))
+                logging.info("S&P Global PMI: checked secondary Flash schedule")
+            except Exception as backup_exc:
+                logging.warning("PMI secondary Flash source unavailable: %s", backup_exc)
+        releases = sorted(set(releases), key=lambda item: item[1])
+        future = [moment for _, moment in releases if moment >= now]
+        if not future or max(future) < now + timedelta(days=30):
+            logging.error("PMI schedule coverage under 30 days: verified dates require refresh")
         count = 0
         for label, moment in releases:
             if not now - timedelta(days=7) <= moment <= now + timedelta(days=400):
