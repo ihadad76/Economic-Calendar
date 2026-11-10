@@ -34,6 +34,43 @@ CME_SPECIAL_2026 = [
     ("2027-01-01", "New Year's"),
 ]
 
+# US dollar fixed-income MARKET recommendations from SIFMA.
+# Source: https://www.sifma.org/resources/general/holiday-schedule
+# These are recommended CASH bond-market holidays, NOT CME futures closings.
+# 2027 values reflect the SIFMA 2026-2027 announcement; verify revisions
+# against the source calendar before trading.
+SIFMA_URL = "https://www.sifma.org/resources/general/holiday-schedule"
+BOND_CLOSED = {
+    "2026-10-12": "Columbus Day",
+    "2026-11-11": "Veterans Day",
+    "2026-11-26": "Thanksgiving",
+    "2026-12-25": "Christmas",
+    "2027-01-01": "New Year's Day",
+    "2027-01-18": "Martin Luther King Jr. Day",
+    "2027-02-15": "Presidents Day",
+    "2027-03-26": "Good Friday",
+    "2027-05-31": "Memorial Day",
+    "2027-06-18": "Juneteenth (observed)",
+    "2027-07-05": "Independence Day (observed)",
+    "2027-09-06": "Labor Day",
+    "2027-10-11": "Columbus Day",
+    "2027-11-11": "Veterans Day",
+    "2027-11-25": "Thanksgiving",
+    "2027-12-24": "Christmas (observed)",
+}
+# Date -> (holiday name, recommended close time in US Eastern).
+BOND_EARLY = {
+    "2026-11-27": ("Day after Thanksgiving", time(14, 0)),
+    "2026-12-24": ("Christmas Eve", time(14, 0)),
+    "2026-12-31": ("New Year's Eve", time(14, 0)),
+    "2027-03-25": ("Before Good Friday", time(14, 0)),
+    "2027-05-28": ("Before Memorial Day", time(14, 0)),
+    "2027-07-02": ("Before Independence Day", time(14, 0)),
+    "2027-11-26": ("Day after Thanksgiving", time(14, 0)),
+    "2027-12-23": ("Christmas Eve (observed)", time(14, 0)),
+    "2027-12-31": ("New Year's Eve", time(14, 0)),
+}
+
 def add_market_holidays(cal, now):
     count = 0
     def emit(day, clock, duration, uid, title, description, url):
@@ -76,4 +113,23 @@ def add_market_holidays(cal, now):
              f"cme-special-{d}", f"CME Globex HOLIDAY HOURS — {holiday}",
              "לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפעול בשעות שונות. זה אינו אישור לסגירה מלאה או לשעת סגירה מסוימת. בדקו את שעות החוזה ב־CME לפני המסחר. התראה יום מראש.",
              CME_URL)
+    # SIFMA recommended closures for the US CASH bond market; stocks and
+    # CME futures must not inherit these labels or inferred trading hours.
+    for iso_day, holiday in BOND_CLOSED.items():
+        d = date.fromisoformat(iso_day)
+        emit(d, time(9, 30), timedelta(hours=6, minutes=30),
+             f"sifma-bond-closed-{d}", f"US Bond Market CLOSED (SIFMA) — {holiday}",
+             "SIFMA ממליצה על סגירה מלאה בשוק האג״ח האמריקאי (שוק מזומן). "
+             "NYSE/Nasdaq וחוזי CME עשויים להמשיך לסחור כרגיל; זו אינה הודעת סגירה של CME. "
+             "התראה 24 שעות לפני תחילת האירוע. יש לאמת חריגים מול SIFMA.",
+             SIFMA_URL)
+    for iso_day, (holiday, clock) in BOND_EARLY.items():
+        d = date.fromisoformat(iso_day)
+        emit(d, clock, timedelta(minutes=15),
+             f"sifma-bond-early-{d}",
+             f"US Bond Market EARLY CLOSE (SIFMA) — {clock.strftime('%H:%M')} ET — {holiday}",
+             "SIFMA ממליצה על סיום מוקדם של המסחר בשוק האג״ח המזומן. "
+             "אין להסיק מכך את שעות המסחר ב־NYSE/Nasdaq או בחוזי CME. "
+             "התראה 24 שעות לפני שעת הסגירה המומלצת.",
+             SIFMA_URL)
     return count
