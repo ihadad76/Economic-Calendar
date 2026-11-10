@@ -7,7 +7,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261110T083000
 DTEND;TZID=America/New_York:20261110T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-10-2026-11-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
  ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:CPI (headline + core)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-10-2026-12-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nמדד המח
  ירים לצרכן (CPI) מודד את השינוי במחירי מוצר
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261113T083000
 DTEND;TZID=America/New_York:20261113T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-46-2026-11-13@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
  ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
@@ -84,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:PPI (headline + core)
 DTSTART;TZID=America/New_York:20261215T083000
 DTEND;TZID=America/New_York:20261215T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-46-2026-12-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nמדד המחירי
  ם ליצרן (PPI) מודד שינויים במחירים שמקבלים 
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261106T083000
 DTEND;TZID=America/New_York:20261106T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-50-2026-11-06@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
  סוקה כולל את השינוי במספר המשרות מחוץ למ
@@ -133,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:NFP + Unemployment
 DTSTART;TZID=America/New_York:20261204T083000
 DTEND;TZID=America/New_York:20261204T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-50-2026-12-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nדוח התע
  סוקה כולל את השינוי במספר המשרות מחוץ למ
@@ -157,7 +157,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-53-2026-11-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
  מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
@@ -182,7 +182,7 @@ BEGIN:VEVENT
 SUMMARY:GDP
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-53-2026-12-23@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהתוצר המקו
  מי הגולמי (GDP) מודד את היקף הפעילות הכלכלי
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-54-2026-11-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
  ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
@@ -232,7 +232,7 @@ BEGIN:VEVENT
 SUMMARY:PCE + Core PCE
 DTSTART;TZID=America/New_York:20261223T083000
 DTEND;TZID=America/New_York:20261223T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fred-54-2026-12-23@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד PCE מודד א
  ת השינוי במחירי הצריכה הפרטית בארה״ב. Core 
@@ -257,7 +257,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Manufacturing PMI
 DTSTART;TZID=America/New_York:20261201T100000
 DTEND;TZID=America/New_York:20261201T101500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:ism-ism-manufacturing-pmi-2026-12-01@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בתעשייה (ISM Manufacturing PMI) משקף את מצב הפעי
@@ -284,7 +284,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261104T100000
 DTEND;TZID=America/New_York:20261104T101500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:ism-ism-services-pmi-2026-11-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
@@ -311,7 +311,7 @@ BEGIN:VEVENT
 SUMMARY:ISM Services PMI
 DTSTART;TZID=America/New_York:20261203T100000
 DTEND;TZID=America/New_York:20261203T101500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:ism-ism-services-pmi-2026-12-03@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nמדד מנהלי הר
  כש בשירותים (ISM Services PMI) משקף את מצב הפעילו
@@ -338,7 +338,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20261209T140000
 DTEND;TZID=America/New_York:20261209T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2026-12-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -363,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20261209T143000
 DTEND;TZID=America/New_York:20261209T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2026-12-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -388,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270127T140000
 DTEND;TZID=America/New_York:20270127T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-01-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -413,7 +413,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270127T143000
 DTEND;TZID=America/New_York:20270127T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-01-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -438,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270317T140000
 DTEND;TZID=America/New_York:20270317T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-03-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -463,7 +463,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270317T143000
 DTEND;TZID=America/New_York:20270317T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-03-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -488,7 +488,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270428T140000
 DTEND;TZID=America/New_York:20270428T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-04-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -513,7 +513,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270428T143000
 DTEND;TZID=America/New_York:20270428T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-04-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -538,7 +538,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270609T140000
 DTEND;TZID=America/New_York:20270609T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-06-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -563,7 +563,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270609T143000
 DTEND;TZID=America/New_York:20270609T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-06-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -588,7 +588,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270728T140000
 DTEND;TZID=America/New_York:20270728T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-07-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -613,7 +613,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270728T143000
 DTEND;TZID=America/New_York:20270728T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-07-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -638,7 +638,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20270915T140000
 DTEND;TZID=America/New_York:20270915T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-09-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -663,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20270915T143000
 DTEND;TZID=America/New_York:20270915T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-09-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -688,7 +688,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271027T140000
 DTEND;TZID=America/New_York:20271027T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-10-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -713,7 +713,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271027T143000
 DTEND;TZID=America/New_York:20271027T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-10-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -738,7 +738,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Rate Decision
 DTSTART;TZID=America/New_York:20271208T140000
 DTEND;TZID=America/New_York:20271208T141500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-decision-2027-12-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nועדת הש
  וק הפתוח של הפד (FOMC) מפרסמת את החלטתה על ה
@@ -763,7 +763,7 @@ BEGIN:VEVENT
 SUMMARY:FOMC Chair Press Conference
 DTSTART;TZID=America/New_York:20271208T143000
 DTEND;TZID=America/New_York:20271208T144500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:fomc-press-2027-12-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: גבוהה מאוד\n\nבמסיבת 
  העיתונאים יו״ר הפד מסביר את החלטת הריבית
@@ -788,7 +788,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Final)
 DTSTART;TZID=America/New_York:20261104T094500
 DTEND;TZID=America/New_York:20261104T100000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:spglobal-s-p-global-us-services-pmi-final-20261104T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -808,33 +808,10 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:S&P Global US Manufacturing PMI (Flash)
-DTSTART;TZID=America/New_York:20261123T094500
-DTEND;TZID=America/New_York:20261123T100000
-DTSTAMP:20261109T213947Z
-UID:spglobal-s-p-global-us-manufacturing-pmi-flash-20261123T1445Z@economic
- -calendar
-DESCRIPTION:חשיבות למסחר: גבוהה\n\nאומדן ראשוני
-  למצב פעילות התעשייה בארה״ב על פי סקר S&P Gl
- obal.\n\nלמה זה חשוב למסחר? פרסום מוקדם ומפתי
- ע עשוי להשפיע על ציפיות הצמיחה והריבית.\n
- \nדירוג החשיבות הוא הערכה כללית בלבד\; עוצ
- מת התגובה בפועל אינה ידועה מראש.\nמקור: http
- s://pmi.spglobal.com/Public/Release/ReleaseDates?language=en\n\nשעת ה
- פרסום נקראה מלוח S&P Global ב־UTC. מועדים עשויי
- ם להשתנות\; יש לאמת מול המפרסם.
-URL:https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:S&P Global US Manufacturing PMI (Flash) in 30 minutes
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Flash)
 DTSTART;TZID=America/New_York:20261123T094500
 DTEND;TZID=America/New_York:20261123T100000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:spglobal-s-p-global-us-services-pmi-flash-20261123T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: גבוהה\n\nאומדן ראשוני
@@ -854,10 +831,33 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:S&P Global US Manufacturing PMI (Flash)
+DTSTART;TZID=America/New_York:20261123T094500
+DTEND;TZID=America/New_York:20261123T100000
+DTSTAMP:20261110T033355Z
+UID:spglobal-s-p-global-us-manufacturing-pmi-flash-20261123T1445Z@economic
+ -calendar
+DESCRIPTION:חשיבות למסחר: גבוהה\n\nאומדן ראשוני
+  למצב פעילות התעשייה בארה״ב על פי סקר S&P Gl
+ obal.\n\nלמה זה חשוב למסחר? פרסום מוקדם ומפתי
+ ע עשוי להשפיע על ציפיות הצמיחה והריבית.\n
+ \nדירוג החשיבות הוא הערכה כללית בלבד\; עוצ
+ מת התגובה בפועל אינה ידועה מראש.\nמקור: http
+ s://pmi.spglobal.com/Public/Release/ReleaseDates?language=en\n\nשעת ה
+ פרסום נקראה מלוח S&P Global ב־UTC. מועדים עשויי
+ ם להשתנות\; יש לאמת מול המפרסם.
+URL:https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:S&P Global US Manufacturing PMI (Flash) in 30 minutes
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:S&P Global US Manufacturing PMI (Final)
 DTSTART;TZID=America/New_York:20261201T094500
 DTEND;TZID=America/New_York:20261201T100000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:spglobal-s-p-global-us-manufacturing-pmi-final-20261201T1445Z@economic
  -calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -880,7 +880,7 @@ BEGIN:VEVENT
 SUMMARY:S&P Global US Services PMI (Final)
 DTSTART;TZID=America/New_York:20261203T094500
 DTEND;TZID=America/New_York:20261203T100000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:spglobal-s-p-global-us-services-pmi-final-20261203T1445Z@economic-cale
  ndar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nהקריאה הסו
@@ -903,7 +903,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261105T083000
 DTEND;TZID=America/New_York:20261105T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-11-05@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -928,7 +928,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261112T083000
 DTEND;TZID=America/New_York:20261112T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-11-12@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -953,7 +953,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261119T083000
 DTEND;TZID=America/New_York:20261119T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-11-19@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -978,7 +978,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261125T083000
 DTEND;TZID=America/New_York:20261125T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-11-26@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1003,7 +1003,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261203T083000
 DTEND;TZID=America/New_York:20261203T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-12-03@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1028,7 +1028,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261210T083000
 DTEND;TZID=America/New_York:20261210T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-12-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1053,7 +1053,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261217T083000
 DTEND;TZID=America/New_York:20261217T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-12-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1078,7 +1078,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261224T083000
 DTEND;TZID=America/New_York:20261224T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-12-24@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1103,7 +1103,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20261231T083000
 DTEND;TZID=America/New_York:20261231T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2026-12-31@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1128,7 +1128,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270107T083000
 DTEND;TZID=America/New_York:20270107T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-01-07@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1153,7 +1153,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270114T083000
 DTEND;TZID=America/New_York:20270114T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-01-14@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1178,7 +1178,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270121T083000
 DTEND;TZID=America/New_York:20270121T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-01-21@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1203,7 +1203,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270128T083000
 DTEND;TZID=America/New_York:20270128T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-01-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1228,7 +1228,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270204T083000
 DTEND;TZID=America/New_York:20270204T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-02-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1253,7 +1253,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270211T083000
 DTEND;TZID=America/New_York:20270211T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-02-11@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1278,7 +1278,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270218T083000
 DTEND;TZID=America/New_York:20270218T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-02-18@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1303,7 +1303,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270225T083000
 DTEND;TZID=America/New_York:20270225T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-02-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1328,7 +1328,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270304T083000
 DTEND;TZID=America/New_York:20270304T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-03-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1353,7 +1353,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270311T083000
 DTEND;TZID=America/New_York:20270311T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-03-11@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1378,7 +1378,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270318T083000
 DTEND;TZID=America/New_York:20270318T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-03-18@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1403,7 +1403,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270325T083000
 DTEND;TZID=America/New_York:20270325T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-03-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1428,7 +1428,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270401T083000
 DTEND;TZID=America/New_York:20270401T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-04-01@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1453,7 +1453,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270408T083000
 DTEND;TZID=America/New_York:20270408T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-04-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1478,7 +1478,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270415T083000
 DTEND;TZID=America/New_York:20270415T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-04-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1503,7 +1503,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270422T083000
 DTEND;TZID=America/New_York:20270422T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-04-22@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1528,7 +1528,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270429T083000
 DTEND;TZID=America/New_York:20270429T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-04-29@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1553,7 +1553,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270506T083000
 DTEND;TZID=America/New_York:20270506T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-05-06@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1578,7 +1578,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270513T083000
 DTEND;TZID=America/New_York:20270513T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-05-13@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1603,7 +1603,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270520T083000
 DTEND;TZID=America/New_York:20270520T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-05-20@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1628,7 +1628,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270527T083000
 DTEND;TZID=America/New_York:20270527T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-05-27@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1653,7 +1653,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270603T083000
 DTEND;TZID=America/New_York:20270603T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-06-03@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1678,7 +1678,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270610T083000
 DTEND;TZID=America/New_York:20270610T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-06-10@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1703,7 +1703,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270617T083000
 DTEND;TZID=America/New_York:20270617T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-06-17@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1728,7 +1728,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270624T083000
 DTEND;TZID=America/New_York:20270624T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-06-24@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1753,7 +1753,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270701T083000
 DTEND;TZID=America/New_York:20270701T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-07-01@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1778,7 +1778,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270708T083000
 DTEND;TZID=America/New_York:20270708T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-07-08@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1803,7 +1803,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270715T083000
 DTEND;TZID=America/New_York:20270715T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-07-15@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1828,7 +1828,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270722T083000
 DTEND;TZID=America/New_York:20270722T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-07-22@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1853,7 +1853,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270729T083000
 DTEND;TZID=America/New_York:20270729T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-07-29@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1878,7 +1878,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270805T083000
 DTEND;TZID=America/New_York:20270805T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-08-05@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1903,7 +1903,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270812T083000
 DTEND;TZID=America/New_York:20270812T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-08-12@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1928,7 +1928,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270819T083000
 DTEND;TZID=America/New_York:20270819T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-08-19@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1953,7 +1953,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270826T083000
 DTEND;TZID=America/New_York:20270826T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-08-26@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -1978,7 +1978,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270902T083000
 DTEND;TZID=America/New_York:20270902T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-09-02@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2003,7 +2003,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270909T083000
 DTEND;TZID=America/New_York:20270909T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-09-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2028,7 +2028,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270916T083000
 DTEND;TZID=America/New_York:20270916T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-09-16@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2053,7 +2053,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270923T083000
 DTEND;TZID=America/New_York:20270923T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-09-23@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2078,7 +2078,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20270930T083000
 DTEND;TZID=America/New_York:20270930T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-09-30@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2103,7 +2103,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271007T083000
 DTEND;TZID=America/New_York:20271007T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-10-07@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2128,7 +2128,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271014T083000
 DTEND;TZID=America/New_York:20271014T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-10-14@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2153,7 +2153,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271021T083000
 DTEND;TZID=America/New_York:20271021T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-10-21@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2178,7 +2178,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271028T083000
 DTEND;TZID=America/New_York:20271028T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-10-28@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2203,7 +2203,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271104T083000
 DTEND;TZID=America/New_York:20271104T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-11-04@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2228,7 +2228,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271110T083000
 DTEND;TZID=America/New_York:20271110T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-11-11@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2253,7 +2253,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271118T083000
 DTEND;TZID=America/New_York:20271118T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-11-18@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2278,7 +2278,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271124T083000
 DTEND;TZID=America/New_York:20271124T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-11-25@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2303,7 +2303,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271202T083000
 DTEND;TZID=America/New_York:20271202T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-12-02@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2328,7 +2328,7 @@ BEGIN:VEVENT
 SUMMARY:Weekly Jobless Claims (Initial + Continuing)
 DTSTART;TZID=America/New_York:20271209T083000
 DTEND;TZID=America/New_York:20271209T084500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:dol-weekly-claims-2027-12-09@economic-calendar
 DESCRIPTION:חשיבות למסחר: בינונית\n\nדוח שבועי 
  של משרד העבודה האמריקאי. Initial Claims מודד בק
@@ -2353,7 +2353,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20261126T093000
 DTEND;TZID=America/New_York:20261126T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2026-11-26@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2369,7 +2369,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20261225T093000
 DTEND;TZID=America/New_York:20261225T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2026-12-25@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2385,7 +2385,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270101T093000
 DTEND;TZID=America/New_York:20270101T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-01-01@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2401,7 +2401,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270118T093000
 DTEND;TZID=America/New_York:20270118T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-01-18@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2417,7 +2417,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270215T093000
 DTEND;TZID=America/New_York:20270215T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-02-15@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2433,7 +2433,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270326T093000
 DTEND;TZID=America/New_York:20270326T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-03-26@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2449,7 +2449,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270531T093000
 DTEND;TZID=America/New_York:20270531T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-05-31@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2465,7 +2465,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270618T093000
 DTEND;TZID=America/New_York:20270618T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-06-18@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2481,7 +2481,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270705T093000
 DTEND;TZID=America/New_York:20270705T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-07-05@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2497,7 +2497,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20270906T093000
 DTEND;TZID=America/New_York:20270906T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-09-06@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2513,7 +2513,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq CLOSED
 DTSTART;TZID=America/New_York:20271125T093000
 DTEND;TZID=America/New_York:20271125T160000
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-closed-2027-11-25@economic-calendar
 DESCRIPTION:המסחר הרגיל במניות בארה״ב סגור הי
  ום. התראה יום מראש. שעות ניו יורק.\\nOfficial sou
@@ -2529,7 +2529,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq EARLY CLOSE — 13:00 ET
 DTSTART;TZID=America/New_York:20261127T130000
 DTEND;TZID=America/New_York:20261127T131500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-early-2026-11-27@economic-calendar
 DESCRIPTION:סגירה מוקדמת של מסחר מניות ב־13:00 ש
  עון ניו יורק (אופציות מסוימות ב־13:15). התרא
@@ -2546,7 +2546,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq EARLY CLOSE — 13:00 ET
 DTSTART;TZID=America/New_York:20261224T130000
 DTEND;TZID=America/New_York:20261224T131500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-early-2026-12-24@economic-calendar
 DESCRIPTION:סגירה מוקדמת של מסחר מניות ב־13:00 ש
  עון ניו יורק (אופציות מסוימות ב־13:15). התרא
@@ -2563,7 +2563,7 @@ BEGIN:VEVENT
 SUMMARY:NYSE / Nasdaq EARLY CLOSE — 13:00 ET
 DTSTART;TZID=America/New_York:20271126T130000
 DTEND;TZID=America/New_York:20271126T131500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:equity-early-2027-11-26@economic-calendar
 DESCRIPTION:סגירה מוקדמת של מסחר מניות ב־13:00 ש
  עון ניו יורק (אופציות מסוימות ב־13:15). התרא
@@ -2580,7 +2580,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — Thanksgiving
 DTSTART;TZID=America/New_York:20261126T090000
 DTEND;TZID=America/New_York:20261126T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2026-11-26@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
@@ -2598,7 +2598,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — Thanksgiving
 DTSTART;TZID=America/New_York:20261127T090000
 DTEND;TZID=America/New_York:20261127T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2026-11-27@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
@@ -2616,7 +2616,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — Christmas
 DTSTART;TZID=America/New_York:20261224T090000
 DTEND;TZID=America/New_York:20261224T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2026-12-24@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
@@ -2634,7 +2634,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — Christmas
 DTSTART;TZID=America/New_York:20261225T090000
 DTEND;TZID=America/New_York:20261225T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2026-12-25@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
@@ -2652,7 +2652,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — New Year's
 DTSTART;TZID=America/New_York:20261231T090000
 DTEND;TZID=America/New_York:20261231T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2026-12-31@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
@@ -2670,7 +2670,7 @@ BEGIN:VEVENT
 SUMMARY:CME Globex HOLIDAY HOURS — New Year's
 DTSTART;TZID=America/New_York:20270101T090000
 DTEND;TZID=America/New_York:20270101T091500
-DTSTAMP:20261109T213947Z
+DTSTAMP:20261110T033355Z
 UID:cme-special-2027-01-01@economic-calendar
 DESCRIPTION:לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפ
  עול בשעות שונות. זה אינו אישור לסגירה מלא
