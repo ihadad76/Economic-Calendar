@@ -113,15 +113,26 @@ def add_market_holidays(cal, now):
              f"cme-special-{d}", f"CME Globex HOLIDAY HOURS — {holiday}",
              "לוח שעות מיוחד לחג. NQ/ES/GC עשויים לפעול בשעות שונות. זה אינו אישור לסגירה מלאה או לשעת סגירה מסוימת. בדקו את שעות החוזה ב־CME לפני המסחר. התראה יום מראש.",
              CME_URL)
-    # SIFMA recommended closures for the US CASH bond market; stocks and
-    # CME futures must not inherit these labels or inferred trading hours.
+    # SIFMA closures refer to the CASH bond market. State equity status
+    # explicitly only when it is covered by the verified equity calendar.
     for iso_day, holiday in BOND_CLOSED.items():
         d = date.fromisoformat(iso_day)
+        equity_closed = f"{d.month:02d}-{d.day:02d}" in EQUITY_CLOSED.get(d.year, [])
+        equity_early = f"{d.month:02d}-{d.day:02d}" in EQUITY_EARLY.get(d.year, [])
+        if equity_closed:
+            equity_status = "גם בורסות המניות NYSE ו־Nasdaq סגורות ביום זה. "
+        elif equity_early:
+            equity_status = "בורסות המניות NYSE ו־Nasdaq פתוחות למסחר מקוצר ביום זה. "
+        elif d.year in EQUITY_CLOSED:
+            equity_status = "חשוב: NYSE ו־Nasdaq פתוחות למסחר רגיל במניות ביום זה; רק שוק האג״ח המזומן סגור לפי SIFMA. "
+        else:
+            equity_status = "יש לבדוק בנפרד את לוח המסחר של NYSE/Nasdaq. "
         emit(d, time(9, 30), timedelta(hours=6, minutes=30),
              f"sifma-bond-closed-{d}", f"US Bond Market CLOSED (SIFMA) — {holiday}",
-             "SIFMA ממליצה על סגירה מלאה בשוק האג״ח האמריקאי (שוק מזומן). "
-             "NYSE/Nasdaq וחוזי CME עשויים להמשיך לסחור כרגיל; זו אינה הודעת סגירה של CME. "
-             "התראה 24 שעות לפני תחילת האירוע. יש לאמת חריגים מול SIFMA.",
+             "סגירת שוק האג״ח האמריקאי (שוק מזומן) לפי המלצת SIFMA. "
+             + equity_status
+             + "ההודעה אינה מתייחסת לסגירת חוזים עתידיים ב־CME; יש לבדוק את שעות המסחר לפי חוזה. "
+             + "התראה 24 שעות לפני תחילת האירוע.",
              SIFMA_URL)
     for iso_day, (holiday, clock) in BOND_EARLY.items():
         d = date.fromisoformat(iso_day)
