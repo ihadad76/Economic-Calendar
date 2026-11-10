@@ -11,6 +11,7 @@ on:
       - event_descriptions.py
       - spglobal_pmi.py
       - market_holidays.py
+      - test_market_holidays.py
       - requirements.txt
       - .github/workflows/update-calendar.yml
 permissions:
@@ -30,6 +31,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Validate exchange holidays and alerts
+        run: python -m unittest -v test_market_holidays.py
       - name: Build calendar from FRED
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
