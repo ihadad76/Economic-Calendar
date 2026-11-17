@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - calendar_builder.py
+      - confirmed_earnings.py
+      - test_confirmed_earnings.py
       - jobless_claims.py
       - event_descriptions.py
       - spglobal_pmi.py
@@ -32,7 +34,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Validate exchange holidays and alerts
-        run: python -m unittest -v test_market_holidays.py
+        run: python -m unittest -v test_market_holidays.py test_confirmed_earnings.py
       - name: Build calendar from FRED
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
