@@ -17,6 +17,7 @@ from event_descriptions import event_description
 from spglobal_pmi import add_spglobal_pmi
 from jobless_claims import add_jobless_claims
 from market_holidays import add_market_holidays
+from confirmed_earnings import add_confirmed_earnings
 
 API = "https://api.stlouisfed.org/fred"
 NY = ZoneInfo("America/New_York")
@@ -101,6 +102,7 @@ def main():
     total += add_spglobal_pmi(calendar, now)
     total += add_jobless_claims(calendar, now)
     total += add_market_holidays(calendar, now)
+    total += add_confirmed_earnings(calendar, now)
     total += add_chair_speeches(calendar, now)
     if total < len(RELEASES):
         raise RuntimeError("Insufficient release dates; refusing to publish")
