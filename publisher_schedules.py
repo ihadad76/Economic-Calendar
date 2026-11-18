@@ -141,7 +141,7 @@ def parse_official_minutes_month(html, year, month):
     end_positions = [x for x in end_positions if x != -1]
     section = text[start:min(end_positions) if end_positions else start + 2000]
     dates = []
-    matches = re.finditer(r"2:00\\s*p\\.m\\.\\s*FOMC Minutes\\s*Meeting of\\s+[A-Za-z]+\\s+\\d{1,2}\\s*[-–]\\s*\\d{1,2}\\s+(\\d{1,2})\\b", section, re.I)
+    matches = re.finditer(r"2:00\s*p\.m\.\s*FOMC Minutes\s*Meeting of\s+[A-Za-z]+\s+\d{1,2}\s*[-–]\s*\d{1,2}\s+(\d{1,2})\b", section, re.I)
     for m in matches:
         try:
             dates.append(date(year, month, int(m.group(1))))
