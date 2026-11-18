@@ -31,6 +31,10 @@ FOMC = [
     (2027,7,28),(2027,9,15),(2027,10,27),(2027,12,8),
 ]
 
+# Officially scheduled FOMC minutes release dates. Do not infer future dates
+# simply by adding 21 days; holidays and rescheduling may change them.
+FOMC_MINUTES_VERIFIED = [date(2026, 11, 18)]
+
 def append_event(calendar, now, day, clock, label, uid, source):
     start = datetime.combine(day, clock, tzinfo=NY)
     if start < now.astimezone(NY) - timedelta(days=7):
@@ -68,4 +72,8 @@ def add_official_schedules(calendar, now):
             f"fomc-decision-{d}", fomc_source)
         count += append_event(calendar, now, d, time(14, 30), "FOMC Chair Press Conference",
             f"fomc-press-{d}", fomc_source)
+    # Distinct from the rate decision: minutes of a PREVIOUS FOMC meeting.
+    for d in FOMC_MINUTES_VERIFIED:
+        count += append_event(calendar, now, d, time(14, 0),
+            "FOMC Meeting Minutes", f"fomc-minutes-{d}", fomc_source)
     return count
