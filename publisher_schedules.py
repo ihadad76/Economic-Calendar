@@ -5,7 +5,7 @@ The checked-in dates in official_schedules.py remain the safe fallback.
 import calendar
 import logging
 import re
-from datetime import date
+from datetime import date, timedelta
 import requests
 from bs4 import BeautifulSoup
 
@@ -124,3 +124,50 @@ def official_dates(fallback_fomc, fallback_ism):
     except Exception as exc:
         logging.warning("ISM source unavailable; retaining known dates: %s", exc)
     return fomc, ism
+
+
+def parse_official_minutes_month(html, year, month):
+    """Extract only announced FOMC Minutes entries from one Fed month page.
+
+    Do not derive a date from the FOMC meeting calendar or the three-week rule.
+    The date and 2:00 pm ET time must both appear in the official release list.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text(" ", strip=True)
+    start = text.find("FOMC Meetings")
+    if start == -1:
+        return []
+    end_positions = [text.find(x, start + 1) for x in ("Beige Book", "Statistical Releases", "Other")]
+    end_positions = [x for x in end_positions if x != -1]
+    section = text[start:min(end_positions) if end_positions else start + 2000]
+    dates = []
+    matches = re.finditer(r"2:00\\s*p\\.m\\.\\s*FOMC Minutes\\s*Meeting of .{4,85}?\\s+(\\d{1,2})\\b", section, re.I)
+    for m in matches:
+        try:
+            dates.append(date(year, month, int(m.group(1))))
+        except ValueError:
+            continue
+    return sorted(set(dates))
+
+
+def official_minutes_dates(now, fallback):
+    """Fetch official Fed release schedules for current and next three months.
+
+    Existing verified dates are retained during transient website outages.
+    Newly announced dates appear without further GitHub code edits.
+    """
+    current = now.date()
+    dates = set(fallback)
+    first_month = current.year * 12 + current.month - 1
+    for n in range(4):
+        year, zero_month = divmod(first_month + n, 12)
+        month = zero_month + 1
+        url = f"https://www.federalreserve.gov/newsevents/{year}-{calendar.month_name[month].lower()}.htm"
+        try:
+            parsed = parse_official_minutes_month(get_html(url), year, month)
+            dates.update(parsed)
+            if parsed:
+                logging.info("Official Fed FOMC minutes %d-%02d: %s", year, month, parsed)
+        except Exception as exc:
+            logging.warning("Fed minutes month unavailable %d-%02d: %s", year, month, exc)
+    return sorted(dates)
