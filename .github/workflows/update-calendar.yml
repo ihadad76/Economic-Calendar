@@ -11,6 +11,7 @@ on:
       - test_confirmed_earnings.py
       - jobless_claims.py
       - event_descriptions.py
+      - official_schedules.py
       - spglobal_pmi.py
       - market_holidays.py
       - test_market_holidays.py
