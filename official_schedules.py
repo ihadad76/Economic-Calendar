@@ -9,7 +9,7 @@ https://www.federalreserve.gov/newsevents/pressreleases/monetary20250905a.htm
 from datetime import date, datetime, time, timedelta
 from icalendar import Event, Alarm
 from zoneinfo import ZoneInfo
-from publisher_schedules import official_dates
+from publisher_schedules import official_dates, official_minutes_dates
 from event_descriptions import event_description
 
 NY = ZoneInfo("America/New_York")
@@ -28,12 +28,12 @@ FOMC = [
     (2026,1,28),(2026,3,18),(2026,4,29),(2026,6,17),
     (2026,7,29),(2026,9,16),(2026,10,28),(2026,12,9),
     (2027,1,27),(2027,3,17),(2027,4,28),(2027,6,9),
-    (2027,7,28),(2027,9,15),(2027,10,27),(2027,12,8),
+    (2027,7,28),(2027,9,15),(2027,11,17),
 ]
 
 # Officially scheduled FOMC minutes release dates. Do not infer future dates
 # simply by adding 21 days; holidays and rescheduling may change them.
-FOMC_MINUTES_VERIFIED = [date(2026, 11, 18)]
+FOMC_MINUTES_VERIFIED = [date(2026, 11, 18), date(2026, 12, 30)]
 
 def append_event(calendar, now, day, clock, label, uid, source):
     start = datetime.combine(day, clock, tzinfo=NY)
@@ -68,12 +68,16 @@ def add_official_schedules(calendar, now):
                 label, "ism-" + label.lower().replace(" ", "-") + f"-{d}", ism_source)
     fomc_source = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     for d in fomc_dates:
+        # Oct 2027 is a strategy-only FOMC meeting, not a rate decision.
+        # The Fed revised its tentative 2027 schedule on Nov 12, 2026.
+        if d == date(2027, 10, 27) or d == date(2027, 12, 8):
+            continue
         count += append_event(calendar, now, d, time(14, 0), "FOMC Rate Decision",
             f"fomc-decision-{d}", fomc_source)
         count += append_event(calendar, now, d, time(14, 30), "FOMC Chair Press Conference",
             f"fomc-press-{d}", fomc_source)
     # Distinct from the rate decision: minutes of a PREVIOUS FOMC meeting.
-    for d in FOMC_MINUTES_VERIFIED:
+    for d in official_minutes_dates(now.astimezone(NY), FOMC_MINUTES_VERIFIED):
         count += append_event(calendar, now, d, time(14, 0),
             "FOMC Meeting Minutes", f"fomc-minutes-{d}", fomc_source)
     return count
